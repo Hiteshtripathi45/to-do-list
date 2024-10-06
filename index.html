@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><todo-list></todo-list></title>
+<script defer src="main.js"></script></head>
+
+<body>
+    <main>
+        <div id="menu">
+            <div id="pname">PROJECT</div>
+            <div id="projectbox"></div>
+            <div id="createpro"><button>ADD A PROJECT</button></div>
+        </div>
+        <div id="header"></div>
+        <div id="content"></div>
+
+    </main>
+    <form id="proform">
+        <div>
+        <h1>CREATE PROJECT</h1>
+        </div>
+        <div>
+        <label for="projectname">NAME</label>
+        <input type="text" id="projectname" maxlength="12" required>
+        </div>
+        <button type="submit" id="prosub">create</button>
+    </form>
+    <form id="todoform">
+        <div>
+        <h1>CREATE todo</h1>
+        </div>
+        <div>
+        <label for="todoname">NAME</label>
+        <input type="text" id="todoname" maxlength="12" required>
+        </div>
+        <div>
+            <label for="description">description</label>
+            <textarea name="description" id="description" rows="6" cols="24"></textarea>
+        </div>
+
+        <button type="submit" id="todosub">create</button>
+    </form>
+</body>
+
+</html>
